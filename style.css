@@ -1,0 +1,93 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f5f6fa;
+  color: #2f3640;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.char-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.char-btn {
+  padding: 10px 15px;
+  border: 2px solid #8c7ae6;
+  background-color: #dcdde1;
+  color: #2f3640;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.char-btn:hover {
+  background-color: #8c7ae6;
+  color: white;
+  transform: scale(1.05);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.strength-bar {
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  overflow: hidden;
+  background-color: #dcdde1;
+}
+
+.bar-fill {
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.strength-label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-generate {
+  margin-top: 1.5rem;
+  padding: 12px;
+  background-color: #44bd32;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-generate:hover {
+  background-color: #4cd137;
+}
+
+.output {
+  margin-top: 1.5rem;
+  padding: 10px;
+  background: #f1f2f6;
+  border: 1px dashed #7f8fa6;
+  border-radius: 6px;
+  word-break: break-all;
+}
